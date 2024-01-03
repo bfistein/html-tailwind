@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "live-server": "node ./live-server.js",
-    "dev": "npm run live-server & npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
-    "build": "npx tailwindcss -o ./src/output.css --minify"
+    "tailwind:watch": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "dev": "npm run live-server & npm run tailwind:watch",
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --minify"
   },
   "keywords": [],
   "author": "",
