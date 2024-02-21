@@ -1,3 +1,4 @@
+<!-- Header info -->
 <!DOCTYPE html>
 <html>
   <head>
@@ -6,12 +7,13 @@
     <link href="/output.css" rel="stylesheet" />
   </head>
   <body>
+<!-- Top page banner -->
     <div
-      class="flex items-center gap-x-6 bg-indigo-600 px-6 py-2.5 sm:px-3.5 sm:before:flex-1"
+      class="relative z-10 flex items-center gap-x-6 bg-indigo-600 px-6 py-2.5 sm:px-3.5 sm:before:flex-1"
     >
       <p class="text-sm leading-6 text-white">
-        <a href="#">
-          <strong class="font-semibold">GeneriCon 2023</strong
+        <a href="#Contact">
+          <strong class="font-semibold">Semantee.AI is in private beta!</strong
           ><svg
             viewBox="0 0 2 2"
             class="mx-2 inline h-0.5 w-0.5 fill-current"
@@ -19,7 +21,7 @@
           >
             <circle cx="1" cy="1" r="1" />
           </svg>
-          Join us in Denver from June 7 – 9 to see what’s coming next&nbsp;<span
+          Contact us to be a part of it.&nbsp;<span
             aria-hidden="true"
             >&rarr;</span
           >
@@ -44,34 +46,37 @@
         </button>
       </div>
     </div>
-
-    <header class="bg-white">
+<!-- Navbar -->
+    <header class="bg-transparent relative z-10">
       <nav
         class="mx-auto flex max-w-7xl items-center justify-between gap-x-6 p-6 lg:px-8"
         aria-label="Global"
       >
         <div class="flex lg:flex-1">
           <a href="#" class="-m-1.5 p-1.5">
-            <span class="sr-only">Your Company</span>
+            <span class="sr-only">Semantee.AI</span>
             <img
               class="h-8 w-auto"
-              src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+              src="assets/semantee-logo-full-color.png"
               alt=""
             />
           </a>
         </div>
         <div class="hidden lg:flex lg:gap-x-12">
-          <a href="#" class="text-sm font-semibold leading-6 text-gray-900"
-            >Product</a
+          <a href="https://www.medium.com/#semanteeai" target="_blank" class="text-sm font-semibold leading-6 text-gray-900"
+            >Blog</a
           >
-          <a href="#" class="text-sm font-semibold leading-6 text-gray-900"
+          <a href="#features" class="text-sm font-semibold leading-6 text-gray-900"
             >Features</a
           >
-          <a href="#" class="text-sm font-semibold leading-6 text-gray-900"
-            >Marketplace</a
+          <a href="#pricing" class="text-sm font-semibold leading-6 text-gray-900"
+            >Pricing</a
           >
-          <a href="#" class="text-sm font-semibold leading-6 text-gray-900"
-            >Company</a
+          <a href="#team" class="text-sm font-semibold leading-6 text-gray-900"
+          >Team</a
+        >
+          <a href="#Contact" class="text-sm font-semibold leading-6 text-gray-900"
+            >Contact</a
           >
         </div>
         <div class="flex flex-1 items-center justify-end gap-x-6">
@@ -118,10 +123,10 @@
         >
           <div class="flex items-center gap-x-6">
             <a href="#" class="-m-1.5 p-1.5">
-              <span class="sr-only">Your Company</span>
+              <span class="sr-only">Semantee.AI</span>
               <img
                 class="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                src="assets/semantee-logo-full-color.png"
                 alt=""
               />
             </a>
@@ -152,25 +157,30 @@
             <div class="-my-6 divide-y divide-gray-500/10">
               <div class="space-y-2 py-6">
                 <a
-                  href="#"
+                  href="https://www.medium.com/#semanteeai" target="_blank"
                   class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                  >Product</a
+                  >Blog</a
                 >
                 <a
-                  href="#"
+                  href="#features"
                   class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >Features</a
                 >
                 <a
-                  href="#"
+                  href="#pricing"
                   class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                  >Marketplace</a
+                  >Pricing</a
                 >
                 <a
-                  href="#"
-                  class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                  >Company</a
-                >
+                href="#team"
+                class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                >Team</a
+              >
+              <a
+              href="#contact"
+              class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+              >Contact</a
+            >
               </div>
               <div class="py-6">
                 <a
@@ -184,7 +194,7 @@
         </div>
       </div>
     </header>
-
+<!-- Jumbotron -->
     <div class="relative isolate overflow-hidden bg-white">
       <svg
         class="absolute inset-0 -z-10 h-full w-full stroke-gray-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
@@ -217,19 +227,19 @@
         >
           <img
             class="h-11"
-            src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-            alt="Your Company"
+            src="assets/semantee-logo-400x400.png"
+            alt="Semantee.AI"
           />
           <div class="mt-24 sm:mt-32 lg:mt-16">
-            <a href="#" class="inline-flex space-x-6">
+            <a href="https://www.youtube.com/watch?v=G09zrDm-67k&ab_channel=Semantee" target="_blank" class="inline-flex space-x-6">
               <span
                 class="rounded-full bg-indigo-600/10 px-3 py-1 text-sm font-semibold leading-6 text-indigo-600 ring-1 ring-inset ring-indigo-600/10"
-                >What's new</span
+                >Demo Video</span
               >
               <span
                 class="inline-flex items-center space-x-2 text-sm font-medium leading-6 text-gray-600"
               >
-                <span>Just shipped v1.0</span>
+                <span>See it in action</span>
                 <svg
                   class="h-5 w-5 text-gray-400"
                   viewBox="0 0 20 20"
@@ -248,12 +258,10 @@
           <h1
             class="mt-10 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl"
           >
-            Deploy to the cloud with confidence
+            The Future of Search
           </h1>
           <p class="mt-6 text-lg leading-8 text-gray-600">
-            Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-            lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-            fugiat aliqua.
+            Easily set up a fully configured managed database with a built-in language-agnostic LLM in minutes.
           </p>
           <div class="mt-10 flex items-center gap-x-6">
             <a
@@ -261,8 +269,8 @@
               class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >Get started</a
             >
-            <a href="#" class="text-sm font-semibold leading-6 text-gray-900"
-              >Learn more <span aria-hidden="true">→</span></a
+            <a href="https://demo.semantee.ai/cars" class="text-sm font-semibold leading-6 text-gray-900"
+              >Try Demo <span aria-hidden="true">→</span></a
             >
           </div>
         </div>
@@ -274,7 +282,7 @@
               class="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4"
             >
               <img
-                src="https://tailwindui.com/img/component-images/project-app-screenshot.png"
+                src="assets/dashboard_projects.png"
                 alt="App screenshot"
                 width="2432"
                 height="1442"
@@ -285,34 +293,8 @@
         </div>
       </div>
     </div>
-
-    <div class="bg-white">
-      <div class="px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
-        <div class="mx-auto max-w-2xl text-center">
-          <h2
-            class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
-          >
-            Boost your productivity.<br />Start using our app today.
-          </h2>
-          <p class="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600">
-            Incididunt sint fugiat pariatur cupidatat consectetur sit cillum
-            anim id veniam aliqua proident excepteur commodo do ea.
-          </p>
-          <div class="mt-10 flex items-center justify-center gap-x-6">
-            <a
-              href="#"
-              class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-              >Get started</a
-            >
-            <a href="#" class="text-sm font-semibold leading-6 text-gray-900"
-              >Learn more <span aria-hidden="true">→</span></a
-            >
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="overflow-hidden bg-white py-24 sm:py-32">
+<!-- Features section -->
+    <div id="features" class="overflow-hidden bg-white py-24 sm:py-32">
       <div class="mx-auto max-w-7xl px-6 lg:px-8">
         <div
           class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2"
@@ -320,93 +302,68 @@
           <div class="lg:pr-8 lg:pt-4">
             <div class="lg:max-w-lg">
               <h2 class="text-base font-semibold leading-7 text-indigo-600">
-                Deploy faster
+                Set up a semantic search solution in minutes.
               </h2>
               <p
                 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
               >
-                A better workflow
+              Low code. High performance. Maximum scalability.
               </p>
               <p class="mt-6 text-lg leading-8 text-gray-600">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Maiores impedit perferendis suscipit eaque, iste dolor
-                cupiditate blanditiis ratione.
+                Semantee lets you get up and running with a fully fledged, highly scalable semantic search technology in a matter of minutes.
               </p>
               <dl
                 class="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none"
               >
                 <div class="relative pl-9">
                   <dt class="inline font-semibold text-gray-900">
-                    <svg
-                      class="absolute left-1 top-1 h-5 w-5 text-indigo-600"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                      aria-hidden="true"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        d="M5.5 17a4.5 4.5 0 01-1.44-8.765 4.5 4.5 0 018.302-3.046 3.5 3.5 0 014.504 4.272A4 4 0 0115 17H5.5zm3.75-2.75a.75.75 0 001.5 0V9.66l1.95 2.1a.75.75 0 101.1-1.02l-3.25-3.5a.75.75 0 00-1.1 0l-3.25 3.5a.75.75 0 101.1 1.02l1.95-2.1v4.59z"
-                        clip-rule="evenodd"
-                      />
-                    </svg>
-                    Push to deploy.
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="absolute left-1 top-1 h-5 w-5 text-indigo-600">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6h9.75M10.5 6a1.5 1.5 0 1 1-3 0m3 0a1.5 1.5 0 1 0-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-9.75 0h9.75" />
+                    </svg>                 
+                    Semantic search without the hassle.
                   </dt>
                   <dd class="inline">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Maiores impedit perferendis suscipit eaque, iste dolor
-                    cupiditate blanditiis ratione.
+                    Our vector search database comes pre-configured with a built-in, language agnostic LLM. Everything is ready to be set up in minutes.
                   </dd>
                 </div>
                 <div class="relative pl-9">
                   <dt class="inline font-semibold text-gray-900">
-                    <svg
-                      class="absolute left-1 top-1 h-5 w-5 text-indigo-600"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                      aria-hidden="true"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        d="M10 1a4.5 4.5 0 00-4.5 4.5V9H5a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2v-6a2 2 0 00-2-2h-.5V5.5A4.5 4.5 0 0010 1zm3 8V5.5a3 3 0 10-6 0V9h6z"
-                        clip-rule="evenodd"
-                      />
-                    </svg>
-                    SSL certificates.
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="absolute left-1 top-1 h-5 w-5 text-indigo-600">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M12 9.75v6.75m0 0-3-3m3 3 3-3m-8.25 6a4.5 4.5 0 0 1-1.41-8.775 5.25 5.25 0 0 1 10.233-2.33 3 3 0 0 1 3.758 3.848A3.752 3.752 0 0 1 18 19.5H6.75Z" />
+                    </svg>                    
+                    Cloud or on-premise.
                   </dt>
                   <dd class="inline">
-                    Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure
-                    qui lorem cupidatat commodo.
+                    Unlike most other solutions, Semantee can be used both in the cloud and locally using the same interface.
                   </dd>
                 </div>
                 <div class="relative pl-9">
                   <dt class="inline font-semibold text-gray-900">
-                    <svg
-                      class="absolute left-1 top-1 h-5 w-5 text-indigo-600"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                      aria-hidden="true"
-                    >
-                      <path
-                        d="M4.632 3.533A2 2 0 016.577 2h6.846a2 2 0 011.945 1.533l1.976 8.234A3.489 3.489 0 0016 11.5H4c-.476 0-.93.095-1.344.267l1.976-8.234z"
-                      />
-                      <path
-                        fill-rule="evenodd"
-                        d="M4 13a2 2 0 100 4h12a2 2 0 100-4H4zm11.24 2a.75.75 0 01.75-.75H16a.75.75 0 01.75.75v.01a.75.75 0 01-.75.75h-.01a.75.75 0 01-.75-.75V15zm-2.25-.75a.75.75 0 00-.75.75v.01c0 .414.336.75.75.75H13a.75.75 0 00.75-.75V15a.75.75 0 00-.75-.75h-.01z"
-                        clip-rule="evenodd"
-                      />
-                    </svg>
-                    Database backups.
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="absolute left-1 top-1 h-5 w-5 text-indigo-600">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125" />
+                    </svg>                    
+                    Easy integration.
                   </dt>
                   <dd class="inline">
-                    Ac tincidunt sapien vehicula erat auctor pellentesque
-                    rhoncus. Et magna sit morbi lobortis.
+                    Thanks to our REST API, you can easily integrate Semantee into various applications.
+                  </dd>
+                </div>
+                <div class="relative pl-9">
+                  <dt class="inline font-semibold text-gray-900">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="absolute left-1 top-1 h-5 w-5 text-indigo-600">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3.75v4.5m0-4.5h4.5m-4.5 0L9 9M3.75 20.25v-4.5m0 4.5h4.5m-4.5 0L9 15M20.25 3.75h-4.5m4.5 0v4.5m0-4.5L15 9m5.25 11.25h-4.5m4.5 0v-4.5m0 4.5L15 15" />
+                    </svg>                    
+                    Scale at will.
+                  </dt>
+                  <dd class="inline">
+                    No need to re-index your database manually, which allows you to use Semantee for databases of virtually any scale.
                   </dd>
                 </div>
               </dl>
             </div>
           </div>
           <img
-            src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
+            src="/assets/dashboard_project_data.png"
             alt="Product screenshot"
             class="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
             width="2432"
@@ -415,8 +372,64 @@
         </div>
       </div>
     </div>
-
     <div class="bg-white py-24 sm:py-32">
+      <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div class="mx-auto lg:text-center">
+          <h2 class="text-base font-semibold leading-7 text-indigo-600">Use Cases</h2>
+          <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Discover what you can use Semantee for</p>
+          </div>
+        <div class="mx-auto mt-16 sm:mt-20 lg:mt-24 lg:max-w-4xl">
+          <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
+            <div class="relative pl-16">
+              <dt class="text-base font-semibold leading-7 text-gray-900">
+                <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+                  <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 16.5V9.75m0 0l3 3m-3-3l-3 3M6.75 19.5a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z" />
+                  </svg>
+                </div>
+                E-shop search
+              </dt>
+              <dd class="mt-2 text-base leading-7 text-gray-600">Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.</dd>
+            </div>
+            <div class="relative pl-16">
+              <dt class="text-base font-semibold leading-7 text-gray-900">
+                <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+                  <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
+                  </svg>
+                </div>
+                Automatic data labeling
+              </dt>
+              <dd class="mt-2 text-base leading-7 text-gray-600">Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.</dd>
+            </div>
+            <div class="relative pl-16">
+              <dt class="text-base font-semibold leading-7 text-gray-900">
+                <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+                  <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99" />
+                  </svg>
+                </div>
+                Lightweight BI
+              </dt>
+              <dd class="mt-2 text-base leading-7 text-gray-600">Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.</dd>
+            </div>
+            <div class="relative pl-16">
+              <dt class="text-base font-semibold leading-7 text-gray-900">
+                <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-600">
+                  <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M7.864 4.243A7.5 7.5 0 0119.5 10.5c0 2.92-.556 5.709-1.568 8.268M5.742 6.364A7.465 7.465 0 004.5 10.5a7.464 7.464 0 01-1.15 3.993m1.989 3.559A11.209 11.209 0 008.25 10.5a3.75 3.75 0 117.5 0c0 .527-.021 1.049-.064 1.565M12 10.5a14.94 14.94 0 01-3.6 9.75m6.633-4.596a18.666 18.666 0 01-2.485 5.33" />
+                  </svg>
+                </div>
+                Internal knowledge base
+              </dt>
+              <dd class="mt-2 text-base leading-7 text-gray-600">Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </div>
+<!-- Pricing section -->
+    <div id="pricing" class="bg-white py-24 sm:py-32">
       <div class="mx-auto max-w-7xl px-6 lg:px-8">
         <div class="mx-auto max-w-4xl text-center">
           <h2 class="text-base font-semibold leading-7 text-indigo-600">
@@ -425,14 +438,13 @@
           <p
             class="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl"
           >
-            Pricing plans for teams of&nbsp;all&nbsp;sizes
+            Transparent and flexible pricing plans
           </p>
         </div>
         <p
           class="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-600"
         >
-          Distinctio et nulla eum soluta et neque labore quibusdam. Saepe et
-          quasi iusto modi velit ut non voluptas in. Explicabo id ut laborum.
+          Our pricing plans are transparent and clear. No surprises, no unfamiliar terminology and no complicated calculations. 
         </p>
         <div
           class="isolate mx-auto mt-16 grid max-w-md grid-cols-1 gap-y-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3"
@@ -446,7 +458,7 @@
                   id="tier-freelancer"
                   class="text-lg font-semibold leading-8 text-gray-900"
                 >
-                  Freelancer
+                  Basic
                 </h3>
               </div>
               <p class="mt-4 text-sm leading-6 text-gray-600">
@@ -454,7 +466,7 @@
               </p>
               <p class="mt-6 flex items-baseline gap-x-1">
                 <span class="text-4xl font-bold tracking-tight text-gray-900"
-                  >$24</span
+                  >$69</span
                 >
                 <span class="text-sm font-semibold leading-6 text-gray-600"
                   >/month</span
@@ -542,7 +554,7 @@
                   id="tier-startup"
                   class="text-lg font-semibold leading-8 text-indigo-600"
                 >
-                  Startup
+                  Advanced
                 </h3>
                 <p
                   class="rounded-full bg-indigo-600/10 px-2.5 py-1 text-xs font-semibold leading-5 text-indigo-600"
@@ -555,7 +567,7 @@
               </p>
               <p class="mt-6 flex items-baseline gap-x-1">
                 <span class="text-4xl font-bold tracking-tight text-gray-900"
-                  >$32</span
+                  >$420</span
                 >
                 <span class="text-sm font-semibold leading-6 text-gray-600"
                   >/month</span
@@ -666,11 +678,10 @@
               </p>
               <p class="mt-6 flex items-baseline gap-x-1">
                 <span class="text-4xl font-bold tracking-tight text-gray-900"
-                  >$48</span
+                  >Contact us</span
                 >
-                <span class="text-sm font-semibold leading-6 text-gray-600"
-                  >/month</span
-                >
+
+                
               </p>
               <ul
                 role="list"
@@ -757,13 +768,68 @@
               href="#"
               aria-describedby="tier-enterprise"
               class="mt-8 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300"
-              >Buy plan</a
+              >Get in touch</a
             >
           </div>
         </div>
       </div>
     </div>
-
+<!-- CTA -->
+    <div class="bg-white">
+      <div class="px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
+        <div class="mx-auto text-center">
+          <h2
+            class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+          >
+            Don't waste time configuring vector databases.<br />Start searching like a human today.
+          </h2>
+          <p class="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600">
+            Trust us. Setting up a working vector database is a hassle. We did the dirty work for you, so don't hesitate to get started.
+          </p>
+          <div class="mt-10 flex items-center justify-center gap-x-6">
+            <a
+              href="#"
+              class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              >Get started</a
+            >
+            <a href="#" class="text-sm font-semibold leading-6 text-gray-900"
+              >Contact us <span aria-hidden="true">→</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- Team -->
+    <div id="team" class="bg-white py-24 sm:py-32">
+      <div class="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
+        <div class="max-w-2xl">
+          <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Meet the founders</h2>
+          <p class="mt-6 text-lg leading-8 text-gray-600">A seasoned team transforming the way you search.</p>
+        </div>
+        <ul role="list" class="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
+          <li>
+            <div class="flex items-center gap-x-6">
+              <img class="h-16 w-16 rounded-full" src="assets/cyril.png" width="128px" alt="Cyril">
+              <div>
+                <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Cyril Höschl, Ph.D.</h3>
+                <p class="text-sm font-semibold leading-6 text-indigo-600">Co-Founder</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="flex items-center gap-x-6">
+              <img class="h-16 w-16 rounded-full" src="assets/ben.jpg" width="128px" alt="Ben">
+              <div>
+                <h3 class="text-base font-semibold leading-7 tracking-tight text-gray-900">Benjamin Fistein</h3>
+                <p class="text-sm font-semibold leading-6 text-indigo-600">Co-Founder</p>
+              </div>
+            </div>
+          </li>
+         
+        </ul>
+      </div>
+    </div>
+    <!-- Contact section -->
     <div class="isolate bg-white px-6 py-24 sm:py-32 lg:px-8">
       <div
         class="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
@@ -793,12 +859,12 @@
           "
         ></div>
       </div>
-      <div class="mx-auto max-w-2xl text-center">
+      <div id="Contact" class="mx-auto max-w-2xl text-center">
         <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-          Contact sales
+          Get in touch
         </h2>
         <p class="mt-2 text-lg leading-8 text-gray-600">
-          Aute magna irure deserunt veniam aliqua magna enim voluptate.
+          Contact us if you want to find out more.
         </p>
       </div>
       <form action="#" method="POST" class="mx-auto mt-16 max-w-xl sm:mt-20">
@@ -869,46 +935,6 @@
           </div>
           <div class="sm:col-span-2">
             <label
-              for="phone-number"
-              class="block text-sm font-semibold leading-6 text-gray-900"
-              >Phone number</label
-            >
-            <div class="relative mt-2.5">
-              <div class="absolute inset-y-0 left-0 flex items-center">
-                <label for="country" class="sr-only">Country</label>
-                <select
-                  id="country"
-                  name="country"
-                  class="h-full rounded-md border-0 bg-transparent bg-none py-0 pl-4 pr-9 text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm"
-                >
-                  <option>US</option>
-                  <option>CA</option>
-                  <option>EU</option>
-                </select>
-                <svg
-                  class="pointer-events-none absolute right-3 top-0 h-full w-5 text-gray-400"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  aria-hidden="true"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-              </div>
-              <input
-                type="tel"
-                name="phone-number"
-                id="phone-number"
-                autocomplete="tel"
-                class="block w-full rounded-md border-0 px-3.5 py-2 pl-20 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-              />
-            </div>
-          </div>
-          <div class="sm:col-span-2">
-            <label
               for="message"
               class="block text-sm font-semibold leading-6 text-gray-900"
               >Message</label
@@ -953,19 +979,19 @@
             type="submit"
             class="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >
-            Let's talk
+            Contact us
           </button>
         </div>
       </form>
     </div>
-
+<!-- Footer -->
     <footer class="bg-white" aria-labelledby="footer-heading">
       <h2 id="footer-heading" class="sr-only">Footer</h2>
       <div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
         <div class="xl:grid xl:grid-cols-3 xl:gap-8">
           <img
             class="h-7"
-            src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+            src="assets/semantee-logo-full-color.png"
             alt="Company name"
           />
           <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
@@ -1007,35 +1033,21 @@
               </div>
               <div class="mt-10 md:mt-0">
                 <h3 class="text-sm font-semibold leading-6 text-gray-900">
-                  Support
+                  Resources
                 </h3>
                 <ul role="list" class="mt-6 space-y-4">
                   <li>
                     <a
                       href="#"
                       class="text-sm leading-6 text-gray-600 hover:text-gray-900"
-                      >Pricing</a
+                      >Docs</a
                     >
                   </li>
                   <li>
                     <a
                       href="#"
                       class="text-sm leading-6 text-gray-600 hover:text-gray-900"
-                      >Documentation</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="#"
-                      class="text-sm leading-6 text-gray-600 hover:text-gray-900"
-                      >Guides</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="#"
-                      class="text-sm leading-6 text-gray-600 hover:text-gray-900"
-                      >API Status</a
+                      >Tutorials</a
                     >
                   </li>
                 </ul>
@@ -1061,28 +1073,7 @@
                       >Blog</a
                     >
                   </li>
-                  <li>
-                    <a
-                      href="#"
-                      class="text-sm leading-6 text-gray-600 hover:text-gray-900"
-                      >Jobs</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="#"
-                      class="text-sm leading-6 text-gray-600 hover:text-gray-900"
-                      >Press</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="#"
-                      class="text-sm leading-6 text-gray-600 hover:text-gray-900"
-                      >Partners</a
-                    >
-                  </li>
-                </ul>
+                  </ul>
               </div>
               <div class="mt-10 md:mt-0">
                 <h3 class="text-sm font-semibold leading-6 text-gray-900">
@@ -1093,21 +1084,14 @@
                     <a
                       href="#"
                       class="text-sm leading-6 text-gray-600 hover:text-gray-900"
-                      >Claim</a
+                      >Privacy Policy</a
                     >
                   </li>
                   <li>
                     <a
                       href="#"
                       class="text-sm leading-6 text-gray-600 hover:text-gray-900"
-                      >Privacy</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="#"
-                      class="text-sm leading-6 text-gray-600 hover:text-gray-900"
-                      >Terms</a
+                      >Terms & Conditions</a
                     >
                   </li>
                 </ul>
@@ -1124,7 +1108,7 @@
             </h3>
             <p class="mt-2 text-sm leading-6 text-gray-600">
               The latest news, articles, and resources, sent to your inbox
-              weekly.
+              regularly.
             </p>
           </div>
           <form class="mt-6 sm:flex sm:max-w-md lg:mt-0">
@@ -1152,7 +1136,7 @@
           class="mt-8 border-t border-gray-900/10 pt-8 md:flex md:items-center md:justify-between"
         >
           <div class="flex space-x-6 md:order-2">
-            <a href="#" class="text-gray-400 hover:text-gray-500">
+            <a href="https://www.facebook.com/semanteeai" target="_blank" class="text-gray-400 hover:text-gray-500">
               <span class="sr-only">Facebook</span>
               <svg
                 class="h-6 w-6"
@@ -1167,22 +1151,7 @@
                 />
               </svg>
             </a>
-            <a href="#" class="text-gray-400 hover:text-gray-500">
-              <span class="sr-only">Instagram</span>
-              <svg
-                class="h-6 w-6"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-                aria-hidden="true"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
-                  clip-rule="evenodd"
-                />
-              </svg>
-            </a>
-            <a href="#" class="text-gray-400 hover:text-gray-500">
+            <a href="https://www.twitter.com/semanteeai" target="_blank" class="text-gray-400 hover:text-gray-500">
               <span class="sr-only">Twitter</span>
               <svg
                 class="h-6 w-6"
@@ -1195,7 +1164,7 @@
                 />
               </svg>
             </a>
-            <a href="#" class="text-gray-400 hover:text-gray-500">
+            <a href="https://www.github.com/semanteeai" target="_blank" class="text-gray-400 hover:text-gray-500">
               <span class="sr-only">GitHub</span>
               <svg
                 class="h-6 w-6"
@@ -1210,7 +1179,7 @@
                 />
               </svg>
             </a>
-            <a href="#" class="text-gray-400 hover:text-gray-500">
+            <a href="https://www.youtube.com/@semanteeai" target="_blank" class="text-gray-400 hover:text-gray-500">
               <span class="sr-only">YouTube</span>
               <svg
                 class="h-6 w-6"
@@ -1227,7 +1196,7 @@
             </a>
           </div>
           <p class="mt-8 text-xs leading-5 text-gray-500 md:order-1 md:mt-0">
-            &copy; 2020 Your Company, Inc. All rights reserved.
+            &copy; 2024 Semantee.AI. All rights reserved.
           </p>
         </div>
       </div>
